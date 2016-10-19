@@ -247,7 +247,7 @@ module.exports.parseWarcraftLogs = function (wclDps, wclHps, characterClass) {
     }
 
     var classSpec = {
-        1: {0: "dps", 1: "dps", 2: "dps", 3: null},
+        1: {0: "dps", 1: "dps", 2: "tank", 3: null},
         2: {0: "heal", 1: "tank", 2: "dps", 3: null},
         3: {0: "dps", 1: "dps", 2: "dps", 3: null},
         4: {0: "dps", 1: "dps", 2: "dps", 3: null},
